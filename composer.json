@@ -1,0 +1,21 @@
+{
+	"name": "sellastica/file-manager",
+	"homepage": "https://github.com/sellastica/file-manager",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Tomáš Krejčí",
+			"homepage": "http://www.sellastica.com"
+		}
+	],
+	"require": {
+		"php": ">=7.1"
+	},
+	"require-dev": {
+	},
+	"autoload": {
+		"psr-4": {
+			"Sellastica\\FileManager\\": "src/"
+		}
+	}
+}
