@@ -110,7 +110,7 @@ class LocalFileManager extends AbstractFileManager implements IFileManager
 				}
 
 				return Response::uploadSuccess(
-					$this->getUrl($destination), $fileName, $originalFileName
+					$this->getUrl($destination), $fileName, $url
 				);
 			}
 		}
